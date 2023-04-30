@@ -59,6 +59,43 @@ h1 {
   transform: translateY(-7px);  
 }
 
+.button1 {
+  display: flex;
+  height: 3em;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee4b;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  border: none;
+  background: #fff;
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+}
+ 
+ .button1 > svg {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 20px;
+  transition: all 0.4s ease-in;
+ }
+ 
+ .button1:hover > svg {
+  font-size: 1.2em;
+  transform: translateX(-5px);
+ }
+ 
+ 
+ .button1:hover {
+  transition-delay: 0.2s;
+  box-shadow: 9px 9px 33px #888585, -9px -9px 33px #aca8a8;
+  transform: translateY(-2px);
+ }
+
 /* icons (discord  + github) */
 
 .icon {
